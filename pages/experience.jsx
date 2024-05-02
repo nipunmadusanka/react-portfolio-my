@@ -36,7 +36,7 @@ function about() {
 						<h4 class="hidden text-lg font-medium leading-7 text-slate-500 lg:w-28 lg:text-right lg:block">2024-01-10</h4>
 						<div class="flex flex-col flex-1 gap-4">
 							<h4 class="text-lg font-medium text-emerald-500"><a href='https://zfrozen.com/' target="_blank" rel="noreferrer">Zfrozen</a> <span class="font-normal lg:hidden text-slate-500"> - 2024-01-10</span> </h4>
-							<p class=" text-slate-500">In my capacity at Zfrozen, I've cultivated a comprehensive skill set and experience that underscores my effectiveness in the realm of web development.</p>
+							<p class=" text-slate-500">In my capacity at Zfrozen, I&apos;ve cultivated a comprehensive skill set and experience that underscores my effectiveness in the realm of web development.</p>
 							<ul class="pl-5 list-disc text-slate-500 marker:text-emerald-500">
 								<li>Technology Proficiency</li>
 								<li>Adaptability to New Technologies</li>

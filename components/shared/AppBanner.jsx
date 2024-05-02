@@ -51,7 +51,7 @@ function AppBanner() {
 				<motion.div
 					className='md:text-left pt-6 text-center'>
 					<motion.p>
-						I am passionate about learning and exploring new things. My ultimate goal is to leverage technology in ways that benefit society. I graduated from South Eastern University of Sri Lanka with a Bachelor's degree in Information and Communication Technology.
+						I am passionate about learning and exploring new things. My ultimate goal is to leverage technology in ways that benefit society. I graduated from South Eastern University of Sri Lanka with a Bachelor&apos;s degree in Information and Communication Technology.
 						<br /><br />
 						Software engineering is not just a career path for me, it is my unwavering passion and hobby. I am excited about learning and exploring new horizons in the world of technology. My vision extends beyond lines of code. I am on a mission to leverage technology to build a better world.
 					</motion.p>
@@ -89,8 +89,10 @@ function AppBanner() {
 				transition={{ ease: 'easeInOut', duration: 0.9, delay: 0.2 }}
 				className="w-full sm:w-2/3 text-right float-right mt-8 sm:mt-0"
 			>
-				<img
+				<Image
 					layout="responsive"
+					width="0"
+					height="0"
 					src={
 						activeTheme === 'dark'
 							? '/images/developer.svg'
@@ -98,6 +100,7 @@ function AppBanner() {
 					}
 					alt="Developer"
 				/>
+
 			</motion.div>
 		</motion.section>
 	);

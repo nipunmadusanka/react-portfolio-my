@@ -1,11 +1,9 @@
 const selectOptions = [
 	'Web Application',
 	'Mobile Application',
-	'UI/UX Design',
-	'Branding',
 ];
 
-function ProjectsFilter({ setSelectProject }) {
+function ProjectsFilter({ setSelectProject, allproject }) {
 	return (
 		<select
 			onChange={(e) => {
@@ -27,7 +25,7 @@ function ProjectsFilter({ setSelectProject }) {
                 dark:text-ternary-light
             "
 		>
-			<option value={setSelectProject} className="text-sm sm:text-md">
+			<option value={'All Projects'} onClick={allproject} className="text-sm sm:text-md">
 				All Projects
 			</option>
 

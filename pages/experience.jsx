@@ -8,7 +8,7 @@ import PagesMetaHead from '../components/PagesMetaHead';
 function about() {
 	return (
 		<div>
-			<PagesMetaHead title="About Me" />
+			<PagesMetaHead title="Experience" />
 			<motion.div
 				initial={{ opacity: 0 }}
 				animate={{ opacity: 1, delay: 1 }}

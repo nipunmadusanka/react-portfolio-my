@@ -17,9 +17,9 @@ function PagesMetaHead({ title, keywords, description }) {
 }
 
 PagesMetaHead.defaultProps = {
-	title: 'Optimized Web Development: Crafting User-Centric Experiences for Enhanced Online Presence',
-	keywords: 'Web Development, react, web, JavaScript',
-	keywords: 'SEO Optimization, Responsive Design, Frontend Development',
+    title: 'Nipun Madusanka | Web Developer Portfolio',
+    keywords: 'Web Developer, Frontend Developer, Full Stack Developer, React, Laravel, JavaScript, PHP, React Developer, JavaScript Developer, Freelance Developer, Web Design, Web Development Projects, Hire Web Developer, Web Developer Portfolio',
+    description: 'Welcome to my portfolio! I am a skilled Web Developer specializing in Frontend and Full Stack Development. Explore my projects and skills here.'
 };
 
 export default PagesMetaHead;

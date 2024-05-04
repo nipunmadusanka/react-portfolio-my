@@ -139,7 +139,7 @@ export const projectsData = [
 		title: 'Eats',
 		url: 'Restuarant Website',
 		category: 'Web Application',
-		img: '/images/eats (1).png',
+		img: 'https://i.postimg.cc/XYSX9Czf/eats-2.png',
 		ProjectHeader: {
 			title: 'Eats',
 			publishDate: 'Jul 26, 2023',

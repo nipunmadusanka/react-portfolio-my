@@ -3,7 +3,7 @@ import { FiPhone, FiMapPin, FiMail } from 'react-icons/fi';
 const contacts = [
 	{
 		id: 1,
-		name: 'Lunugala-Colany, Buttala, Sri Lanka',
+		name: 'Lunugala-Coolany, Buttala, Sri Lanka',
 		icon: <FiMapPin />,
 	},
 	{

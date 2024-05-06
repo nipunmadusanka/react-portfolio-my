@@ -3,6 +3,7 @@ import {
 	FiTwitter,
 	FiLinkedin,
 	FiGlobe,
+	FiInstagram,
 	FiYoutube,
 } from 'react-icons/fi';
 import AppFooterCopyright from './AppFooterCopyright';
@@ -11,7 +12,7 @@ const socialLinks = [
 	{
 		id: 1,
 		icon: <FiGlobe />,
-		url: '#',
+		url: 'https://medium.com/@nipunmadhusankha',
 	},
 	{
 		id: 2,
@@ -20,19 +21,14 @@ const socialLinks = [
 	},
 	{
 		id: 3,
-		icon: <FiTwitter />,
-		url: 'https://twitter.com/nm3nipun',
+		icon: <FiInstagram />,
+		url: 'https://www.instagram.com/jm_nipun/',
 	},
 	{
 		id: 4,
 		icon: <FiLinkedin />,
 		url: 'https://www.linkedin.com/in/jm-nipun-madusanka/',
 	},
-	// {
-	// 	id: 5,
-	// 	icon: <FiYoutube />,
-	// 	url: 'https://www.youtube.com/c/realstoman',
-	// },
 ];
 
 function AppFooter() {
@@ -59,7 +55,6 @@ function AppFooter() {
 						))}
 					</ul>
 				</div>
-
 				<AppFooterCopyright />
 			</div>
 		</div>

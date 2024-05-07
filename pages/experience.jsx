@@ -1,6 +1,6 @@
 import { motion } from 'framer-motion';
 import Head from 'next/head';
-import AboutClients from '../components/about/AboutClients';
+import AboutClients from '../components/about/AboutSupport';
 import AboutCounter from '../components/about/AboutCounter';
 import AboutMeBio from '../components/about/AboutMeBio';
 import PagesMetaHead from '../components/PagesMetaHead';

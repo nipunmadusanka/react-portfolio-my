@@ -76,6 +76,7 @@ function ProjectSingle(props) {
 															: ''
 													}
 													target='_blank'
+													rel="noreferrer"
 													aria-label="Project Website and Phone"
 												>
 													{info.details}

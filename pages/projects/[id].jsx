@@ -46,9 +46,9 @@ function ProjectSingle(props) {
 							/>
 						</div>
 					);
-				})} 
+				})}
 			</div>
-			
+
 			{/* Info */}
 			<div className="block sm:flex gap-0 sm:gap-10 mt-14">
 				<div className="w-full sm:w-1/3 text-left">
@@ -66,18 +66,35 @@ function ProjectSingle(props) {
 											key={info.id}
 										>
 											<span>{info.title}: </span>
-											<a
-												href="#"
-												className={
-													info.title === 'Website' ||
-													info.title === 'Phone'
-														? 'hover:underline hover:text-indigo-500 dark:hover:text-indigo-400 cursor-pointer duration-300'
-														: ''
-												}
-												aria-label="Project Website and Phone"
-											>
-												{info.details}
-											</a>
+											{info.title === 'Website' ?
+												<a
+													href={info.details}
+													className={
+														info.title === 'Website' ||
+															info.title === 'Phone'
+															? 'hover:underline hover:text-indigo-500 dark:hover:text-indigo-400 cursor-pointer duration-300'
+															: ''
+													}
+													target='_blank'
+													aria-label="Project Website and Phone"
+												>
+													{info.details}
+												</a>
+												:
+												<a
+													href='#'
+													className={
+															info.title === 'Phone'
+															? 'hover:underline hover:text-indigo-500 dark:hover:text-indigo-400 cursor-pointer duration-300'
+															: ''
+													}
+													
+													aria-label="Project Website and Phone"
+												>
+													{info.details}
+												</a>
+											}
+
 										</li>
 									);
 								}

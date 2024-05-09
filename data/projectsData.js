@@ -194,4 +194,95 @@ export const projectsData = [
       ],
     },
   },
+  {
+    id: 3,
+    title: "Ceylonapex",
+    url: "Creative Agency",
+    category: "Web Application",
+    img: "https://i.postimg.cc/d0SLxXkD/Screenshot-2024-05-09-222336.png",
+    ProjectHeader: {
+      title: "Ceylonapex",
+      publishDate: "Jan 25, 2024",
+      tags: "UI / Frontend",
+    },
+    ProjectImages: [
+      {
+        id: uuidv4(),
+        title: "Ceylonapex",
+        img: "https://i.postimg.cc/d0SLxXkD/Screenshot-2024-05-09-222336.png",
+      },
+      {
+        id: uuidv4(),
+        title: "Ceylonapex",
+        img: "https://i.postimg.cc/XJC7Dv6D/Screenshot-2024-05-09-222651.png",
+      },
+      {
+        id: uuidv4(),
+        title: "Ceylonapex",
+        img: "https://i.postimg.cc/jdXq19BK/Screenshot-2024-05-09-222543.png",
+      },
+    ],
+    ProjectInfo: {
+      ClientHeading: "About Client",
+      CompanyInfo: [
+        {
+          id: uuidv4(),
+          title: "Name",
+          details: "Ceylonapex PVT",
+        },
+        {
+          id: uuidv4(),
+          title: "Services",
+          details: "Web Development",
+        },
+        {
+          id: uuidv4(),
+          title: "Website",
+          details: "https://ceylonapex.com/",
+        },
+        {
+          id: uuidv4(),
+          title: "Phone",
+          details: "-",
+        },
+      ],
+      ObjectivesHeading: "Objective",
+      ObjectivesDetails:
+        'To develop a visually captivating and user-friendly website for a marketing agency, utilizing Figma for UI design and Next.js with the Tailwind CSS framework for efficient development. The primary aim is to meet the client s requirement of delivering the website within a month, while ensuring high-quality standards and exceeding expectations in terms of design, functionality, and performance.',
+      Technologies: [
+        {
+          title: "Tools & Technologies",
+          techs: [
+            "HTML",
+            "JavaScript",
+            "Next.js",
+            "Tailwind CSS",
+          ],
+        },
+      ],
+      ProjectDetailsHeading: "Challenge",
+      ProjectDetails: [
+        {
+          id: uuidv4(),
+          details:
+            'Creating a website for a marketing agency presented several challenges, with the foremost being the development of the user interface (UI). Utilizing Figma, I tackled this hurdle, ensuring the design was not just visually appealing but also intuitive and functional.',
+        },
+        {
+          id: uuidv4(),
+          details:
+            "In the subsequent phase, the challenge shifted towards selecting the most suitable technology stack for the project. Through extensive discussions with the client, we decided on employing Next.js and the Tailwind CSS framework. This decision was made to ensure optimal performance and scalability while meeting the project requirements.",
+        },
+        {
+          id: uuidv4(),
+          details:
+            "However, the most daunting challenge arose from the client's tight deadline. With the expectation to deliver the website within a month, the pressure was on. Despite this, our team rose to the occasion, employing efficient project management strategies and diligent work to meet the deadline. Through effective collaboration and dedication, we successfully completed the project within the stipulated timeframe, exceeding the client's expectations and delivering a high-quality website.",
+        },
+        {
+          id: uuidv4(),
+          details:
+            "Incorporating interactive elements, such as image galleries, reviews, and social media feeds, presented challenges related to both design and performance. Balancing the desire for engaging content with the need for optimal site performance demanded careful consideration. The challenge was not only to integrate these elements seamlessly but also to ensure they enhanced, rather than detracted from, the overall user experience.",
+        },
+      ],
+    },
+  },
 ];

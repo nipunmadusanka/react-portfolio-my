@@ -248,16 +248,11 @@ export const projectsData = [
       ],
       ObjectivesHeading: "Objective",
       ObjectivesDetails:
-        'To develop a visually captivating and user-friendly website for a marketing agency, utilizing Figma for UI design and Next.js with the Tailwind CSS framework for efficient development. The primary aim is to meet the client s requirement of delivering the website within a month, while ensuring high-quality standards and exceeding expectations in terms of design, functionality, and performance.',
+        "To develop a visually captivating and user-friendly website for a marketing agency, utilizing Figma for UI design and Next.js with the Tailwind CSS framework for efficient development. The primary aim is to meet the clients requirement of delivering the website within a month, while ensuring high-quality standards and exceeding expectations in terms of design, functionality, and performance.",
       Technologies: [
         {
           title: "Tools & Technologies",
-          techs: [
-            "HTML",
-            "JavaScript",
-            "Next.js",
-            "Tailwind CSS",
-          ],
+          techs: ["HTML", "JavaScript", "Next.js", "Tailwind CSS"],
         },
       ],
       ProjectDetailsHeading: "Challenge",
@@ -265,7 +260,7 @@ export const projectsData = [
         {
           id: uuidv4(),
           details:
-            'Creating a website for a marketing agency presented several challenges, with the foremost being the development of the user interface (UI). Utilizing Figma, I tackled this hurdle, ensuring the design was not just visually appealing but also intuitive and functional.',
+            "Creating a website for a marketing agency presented several challenges, with the foremost being the development of the user interface (UI). Utilizing Figma, I tackled this hurdle, ensuring the design was not just visually appealing but also intuitive and functional.",
         },
         {
           id: uuidv4(),

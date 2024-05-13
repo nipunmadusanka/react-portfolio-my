@@ -144,7 +144,7 @@ function AppHeader() {
 							</li>
 						</ul>
 						<div className="ml-auto flex items-center px-6 lg:ml-0 lg:p-0">
-							<Link href='https://www.getin4u.com/' target='_blank'>
+							<Link href='https://medium.com/@nipunmadhusankha' target='_blank'>
 								<button className="inline-flex h-10 items-center justify-center gap-2 whitespace-nowrap rounded bg-sky-500 px-5 text-sm font-medium tracking-wide text-white shadow-md shadow-sky-200 transition duration-300 hover:bg-sky-800 hover:shadow-sm hover:shadow-sky-300 focus:bg-sky-900 focus:shadow-sm focus:shadow-emerald-200 focus-visible:outline-none disabled:cursor-not-allowed disabled:border-emerald-300 disabled:bg-emerald-300 disabled:shadow-none">
 									<span>Read my Blog</span>
 								</button>

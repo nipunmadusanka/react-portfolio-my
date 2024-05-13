@@ -9,11 +9,11 @@ import {
 import AppFooterCopyright from './AppFooterCopyright';
 
 const socialLinks = [
-	{
-		id: 1,
-		icon: <FiGlobe />,
-		url: 'https://medium.com/@nipunmadhusankha',
-	},
+	// {
+	// 	id: 1,
+	// 	icon: <FiGlobe />,
+	// 	url: 'https://medium.com/@nipunmadhusankha',
+	// },
 	{
 		id: 2,
 		icon: <FiGithub />,

@@ -8,9 +8,9 @@ function AboutSupport() {
 	const [supports, setsupports] = useState(supportsData);
 	return (
 		<div className="mt-10 sm:mt-20">
-			<p className="font-general-medium text-2xl sm:text-3xl  text-center text-primary-dark dark:text-primary-light">
+			{/* <p className="font-general-medium text-2xl sm:text-3xl  text-center text-primary-dark dark:text-primary-light">
 				{supportHeading}
-			</p>
+			</p> */}
 			<div className='mt-5 flex justify-center'>
 				<p className='w-2/4 text-center'>{supportContent}</p>
 			</div>

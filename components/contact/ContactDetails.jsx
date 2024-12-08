@@ -1,21 +1,12 @@
 import { FiPhone, FiMapPin, FiMail } from 'react-icons/fi';
+import { FaLinkedin } from 'react-icons/fa'; // Import LinkedIn icon
 
 const contacts = [
 	{
 		id: 1,
-		name: 'Lunugala-Coolany, Buttala, Sri Lanka',
-		icon: <FiMapPin />,
-	},
-	{
-		id: 2,
-		name: '*****@gmail.com',
-		icon: <FiMail />,
-	},
-	{
-		id: 3,
-		name: '***********',
-		icon: <FiPhone />,
-	},
+		name: 'https://www.linkedin.com/in/jm-nipun-madusanka/',
+		icon: <FaLinkedin />,
+	}
 ];
 
 function ContactDetails() {
@@ -31,9 +22,9 @@ function ContactDetails() {
 							<i className="text-2xl text-neutral-500 dark:text-neutral-400 mr-4 mt-1">
 								{contact.icon}
 							</i>
-							<span className="text-lg mb-4 text-ternary-dark dark:text-ternary-light">
+							<a href={contact.name} className="text-lg mb-4 text-ternary-dark dark:text-ternary-light">
 								{contact.name}
-							</span>
+							</a>
 						</li>
 					))}
 				</ul>

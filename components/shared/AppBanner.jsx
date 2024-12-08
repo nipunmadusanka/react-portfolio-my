@@ -88,7 +88,7 @@ function AppBanner() {
 					height={699}
 					src={
 						activeTheme === 'dark'
-							? '/images/Nipun working desk.webp'
+							? '/images/nipun_working_desk.webp'
 							: '/images/developer-dark.svg'
 					}
 					alt="Developer"

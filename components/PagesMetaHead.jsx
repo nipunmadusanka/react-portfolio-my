@@ -41,7 +41,7 @@ function PagesMetaHead({ title, keywords, description }) {
 }
 
 PagesMetaHead.defaultProps = {
-	title: 'Nipun Madusanka - Web Developer & Design Enthusiast',
+	title: 'Nipun Madusanka - Web Developer & Design Enthusiast in Sri Lanka',
 	keywords: 'Web Developer, Frontend Developer, Full Stack Developer, React, Laravel, JavaScript, PHP, React Developer, JavaScript Developer, Freelance Developer, Web Design, Web Development Projects, Hire Web Developer, Web Developer Portfolio',
 	description: 'Nipun is a passionate Web Developer & Design Enthusiast, leveraging technology to build a better world.',
 };
